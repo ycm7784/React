@@ -1,0 +1,78 @@
+.bheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vW;
+    height:10vh;
+    background-color: darkblue;
+    color: white;
+
+}
+h1{
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    flex-direction:  column;
+}
+.rowDiv,.rowDiv0{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+    width: 60vw;
+    height: 5vW;
+    border-bottom: 1px solid black;
+}
+
+.rowDiv0:hover ,.rowDiv0 :active{
+    background-color: gray;
+
+}
+.rowDiv0{
+    background-color: aliceblue;
+}
+.rowDay{
+    width: 60vw;
+    height: 6vh;
+    padding:  5px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.col{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#colrank{
+    width: 10%;
+    
+}
+#colmovieNm{
+    width: 60%;
+    
+}
+#colsalesAmt{
+    width: 20%;
+    
+}
+#col{
+    width: 10%;
+    
+}
+.spup{
+    color: brown;
+}
+.spdown{
+    color: blue;
+}

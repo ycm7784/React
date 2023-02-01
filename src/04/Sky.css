@@ -1,0 +1,68 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-color: darkorchid;
+      color: aliceblue;
+}
+.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  
+}
+.mainbox1 {
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+.mainbox2{
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: ghostwhite;
+}
+.dtdiv1{
+    display: flex;
+    width: 30vW;
+    height:8vh;
+    border: 1px solid gainsboro;
+    border-radius:  10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.dtdiv1:hover , .dtdiv1:active{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: large;
+    
+}
+.detail{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    background-color: beige;
+    padding: 10px;
+
+
+}
+.lired{
+    color: red;
+}
