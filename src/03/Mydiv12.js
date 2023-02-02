@@ -1,10 +1,10 @@
-const Mydiv12 = (probs) =>{
+const Mydiv12 = ({user,n,setN}) =>{
 
     return(
         <div className="mydiv12">
         <h2 className="divh2">Mydiv12 </h2>
         <p>
-        {probs.user}
+        {user} n={n}
         </p>
         </div>
     );
